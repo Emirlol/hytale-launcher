@@ -24,7 +24,6 @@ pub struct Patchlines {
 pub struct GameProfile {
 	pub created_at: String,
 	pub entitlements: Vec<String>,
-	pub next_name_change_at: String,
 	pub skin: String,
 	pub username: String,
 	pub uuid: Uuid,
